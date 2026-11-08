@@ -193,7 +193,7 @@ if check_password():
 
             # Add Landscape Logo Banner
             try:
-                logo = RLImage("Screenshot 2026-11-02 222043.jpg", width=440, height=140)
+                logo = RLImage("Screenshot 2026-11-02 222043.png", width=440, height=140)
                 story.append(logo)
                 story.append(Spacer(1, 15))
             except Exception:
